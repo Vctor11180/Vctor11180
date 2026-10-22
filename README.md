@@ -5,8 +5,8 @@
 <br/>
 
 <a href="https://vctor11180.vercel.app"><img src="https://img.shields.io/badge/Portfolio-vctor11180.vercel.app-05070d?style=for-the-badge&labelColor=00f2fe&logo=vercel&logoColor=05070d" alt="Portfolio" /></a>
-<a href="https://linkedin.com/in/victor-murillo-siles"><img src="https://img.shields.io/badge/LinkedIn-05070d?style=for-the-badge&logo=linkedin&logoColor=a855f7" alt="LinkedIn" /></a>
-<a href="mailto:victor.murillo.siles@gmail.com"><img src="https://img.shields.io/badge/Email-05070d?style=for-the-badge&logo=gmail&logoColor=00f2fe" alt="Email" /></a>
+<a href="https://www.linkedin.com/in/vmurillos"><img src="https://img.shields.io/badge/LinkedIn-05070d?style=for-the-badge&logo=linkedin&logoColor=a855f7" alt="LinkedIn" /></a>
+<a href="mailto:victormurillor6@gmail.com"><img src="https://img.shields.io/badge/Email-05070d?style=for-the-badge&logo=gmail&logoColor=00f2fe" alt="Email" /></a>
 
 <sub><a href="#-en-español">🇪🇸 Leer en español</a></sub>
 
@@ -119,7 +119,7 @@ I build where **Web2 reliability** meets **Web3 trust** — hexagonal backends, 
 
 <div align="center">
   <b>Building a protocol, a high-throughput system, or need a hackathon tech lead?</b><br/>
-  <sub><a href="https://vctor11180.vercel.app">Open the portfolio</a> · <a href="mailto:victor.murillo.siles@gmail.com">victor.murillo.siles@gmail.com</a></sub>
+  <sub><a href="https://vctor11180.vercel.app">Open the portfolio</a> · <a href="mailto:victormurillor6@gmail.com">victormurillor6@gmail.com</a></sub>
 </div>
 
 <br/>
@@ -141,6 +141,6 @@ Ingeniero de Sistemas y Tech Lead Full Stack. Construyo donde la **confiabilidad
 - **CodoChain** *(Ideatón Stellar)* — factoring tokenizado (RWA) para PyMEs sobre Soroban.
 - **Todo Ya** — marketplace de servicios con KYC biométrico e IA, 1.000+ conexiones.
 
-¿Construyes un protocolo o necesitas un tech lead para tu hackathon? → [Portafolio](https://vctor11180.vercel.app) · [Email](mailto:victor.murillo.siles@gmail.com)
+¿Construyes un protocolo o necesitas un tech lead para tu hackathon? → [Portafolio](https://vctor11180.vercel.app) · [Email](mailto:victormurillor6@gmail.com)
 
 </details>
