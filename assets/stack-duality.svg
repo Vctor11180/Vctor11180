@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 330" width="100%" fill="none">
+  <defs>
+    <linearGradient id="bridge" x1="0" x2="1">
+      <stop offset="0" stop-color="#00f2fe"/>
+      <stop offset="1" stop-color="#a855f7"/>
+    </linearGradient>
+    <linearGradient id="bridge-border" x1="0" x2="1">
+      <stop offset="0" stop-color="#00f2fe" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#a855f7" stop-opacity="0.45"/>
+    </linearGradient>
+  </defs>
+
+  <style>
+    .mono { font-family: 'JetBrains Mono', 'Cascadia Code', 'SFMono-Regular', Consolas, monospace; }
+    .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; }
+    .label { fill: #6b7489; font-size: 9.5px; letter-spacing: 2px; }
+    .item { fill: #cbd3e1; font-size: 11px; }
+    .flow { stroke-dasharray: 4 6; animation: flow 1.6s linear infinite; }
+    @keyframes flow { to { stroke-dashoffset: -20; } }
+    @media (prefers-reduced-motion: reduce) { .flow { animation: none; } }
+  </style>
+
+  <rect width="880" height="330" rx="16" fill="#05070d"/>
+
+  <!-- WEB2 panel -->
+  <g transform="translate(20 20)">
+    <rect width="408" height="200" rx="12" fill="#0a0e19" stroke="#00f2fe" stroke-opacity="0.25"/>
+    <path d="M0 14V0H14" stroke="#00f2fe" stroke-width="1.5" transform="translate(-0.5 -0.5)"/>
+    <text x="22" y="32" fill="#00f2fe" font-size="11" letter-spacing="2.5" class="mono">WEB2 · DISTRIBUTED CORE</text>
+    <text x="386" y="32" fill="#6b7489" font-size="10" text-anchor="end" class="mono">off-chain</text>
+    <text x="22" y="54" fill="#a3adc2" font-size="11.5" class="sans">Systems that stay up: clean boundaries, boring infrastructure.</text>
+    <g class="mono">
+      <text x="22" y="88" class="label">BACKEND</text>
+      <text x="104" y="88" class="item">Node.js · Express · .NET Core · Laravel</text>
+      <text x="22" y="114" class="label">DATA</text>
+      <text x="104" y="114" class="item">PostgreSQL · Neon · DynamoDB · Drizzle</text>
+      <text x="22" y="140" class="label">CLOUD</text>
+      <text x="104" y="140" class="item">Docker · AWS Lambda · Serverless · CI/CD</text>
+      <text x="22" y="166" class="label">PATTERNS</text>
+      <text x="104" y="166" class="item">Hexagonal · DDD · Microservices · gRPC</text>
+    </g>
+  </g>
+
+  <!-- WEB3 panel -->
+  <g transform="translate(452 20)">
+    <rect width="408" height="200" rx="12" fill="#0a0e19" stroke="#a855f7" stroke-opacity="0.3"/>
+    <path d="M394 200H408V186" stroke="#a855f7" stroke-width="1.5" transform="translate(0.5 0.5)"/>
+    <text x="22" y="32" fill="#c084fc" font-size="11" letter-spacing="2.5" class="mono">WEB3 · PROTOCOL LAYER</text>
+    <text x="386" y="32" fill="#6b7489" font-size="10" text-anchor="end" class="mono">on-chain</text>
+    <text x="22" y="54" fill="#a3adc2" font-size="11.5" class="sans">Contracts that hold value: auditable, minimal trust, gas-aware.</text>
+    <g class="mono">
+      <text x="22" y="88" class="label">CHAINS</text>
+      <text x="104" y="88" class="item">Solidity · Foundry · Soroban · Anchor</text>
+      <text x="22" y="114" class="label">DEFI</text>
+      <text x="104" y="114" class="item">AMM Hooks · Escrow · RWA Factoring</text>
+      <text x="22" y="140" class="label">ACCOUNTS</text>
+      <text x="104" y="140" class="item">ERC-2771 · EIP-712 · Tangem NFC · WDK</text>
+      <text x="22" y="166" class="label">VERIFY</text>
+      <text x="104" y="166" class="item">zkTLS (Reclaim) · Oracles · extsload</text>
+    </g>
+  </g>
+
+  <!-- connectors -->
+  <path class="flow" d="M224 220V246" stroke="#00f2fe" stroke-opacity="0.6"/>
+  <path class="flow" d="M656 220V246" stroke="#a855f7" stroke-opacity="0.7"/>
+
+  <!-- bridge strip -->
+  <g transform="translate(20 246)">
+    <rect x="0.5" y="0.5" width="839" height="63" rx="12" fill="#0a0e19" stroke="url(#bridge-border)"/>
+    <text x="22" y="27" font-size="10" letter-spacing="2.5" class="mono"><tspan fill="#00f2fe">WEB2</tspan><tspan fill="#6b7489"> ⇄ </tspan><tspan fill="#c084fc">WEB3</tspan></text>
+    <text x="22" y="46" fill="#e6ebf5" font-size="12" font-weight="600" class="sans">Where they meet</text>
+    <g class="sans" font-size="11.5" fill="#a3adc2">
+      <text x="170" y="27"><tspan fill="url(#bridge)">◆ </tspan>Gasless meta-tx for non-crypto users</text>
+      <text x="500" y="27"><tspan fill="url(#bridge)">◆ </tspan>AI agents with on-chain guardrails</text>
+      <text x="170" y="47"><tspan fill="url(#bridge)">◆ </tspan>zk proofs over legacy payment rails</text>
+      <text x="500" y="47"><tspan fill="url(#bridge)">◆ </tspan>Indexers &amp; APIs that make contracts usable</text>
+    </g>
+  </g>
+</svg>

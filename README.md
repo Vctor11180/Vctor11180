@@ -1,306 +1,146 @@
 <div align="center">
 
-  <!-- Language Switcher -->
-  <p align="right">
-    <code>Language:</code>
-    <a href="#-versión-en-español"><b>🇪🇸 ES</b></a> | 
-    <a href="#-english-version"><b>🇬🇧 EN</b></a>
-  </p>
+<img src="./assets/banner.svg" alt="Víctor Hugo Murillo Siles — Systems Engineer · Full Stack Tech Lead · Web3 Architect. Web2 discipline. Web3 trust." width="100%" />
 
-  # Víctor Hugo Murillo Siles
-  ### Systems Engineer · Full Stack Tech Lead · Web3 & Distributed Architect
+<br/>
 
-  <p align="center">
-    <a href="https://linkedin.com/in/victor-murillo-siles"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-    <a href="https://github.com/Vctor11180"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
-    <a href="mailto:victor.murillo.siles@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-  </p>
+<a href="https://vctor11180.vercel.app"><img src="https://img.shields.io/badge/Portfolio-vctor11180.vercel.app-05070d?style=for-the-badge&labelColor=00f2fe&logo=vercel&logoColor=05070d" alt="Portfolio" /></a>
+<a href="https://linkedin.com/in/victor-murillo-siles"><img src="https://img.shields.io/badge/LinkedIn-05070d?style=for-the-badge&logo=linkedin&logoColor=a855f7" alt="LinkedIn" /></a>
+<a href="mailto:victor.murillo.siles@gmail.com"><img src="https://img.shields.io/badge/Email-05070d?style=for-the-badge&logo=gmail&logoColor=00f2fe" alt="Email" /></a>
 
-  <!-- High-Tech Shield Indicators -->
-  <p align="center">
-    <img src="https://img.shields.io/badge/Status-Building_Scalable_Protocols-00f2fe?style=flat-square&logo=target&logoColor=black" alt="Status" />
-    <img src="https://img.shields.io/badge/Focus-Web3_Hackathons_%26_Distributed_Core-10b981?style=flat-square&logo=blockchaindotcom&logoColor=white" alt="Focus" />
-    <img src="https://img.shields.io/badge/Ecosystems-Solana_|_Avalanche_|_Stellar_|_EVM-a855f7?style=flat-square&logo=ethereum&logoColor=white" alt="Ecosystems" />
-  </p>
+<sub><a href="#-en-español">🇪🇸 Leer en español</a></sub>
 
 </div>
 
----
+<br/>
 
-<!-- SYSTEM HUD / TELEMETRY COMPONENT -->
-<p align="center">
-  <img src="./assets/hud-telemetry.svg" alt="System Telemetry & Architecture HUD" width="100%" />
-</p>
+I build where **Web2 reliability** meets **Web3 trust** — hexagonal backends, serverless pipelines and data layers on one side; Solidity, Soroban and Anchor contracts on the other. Battle-tested across international hackathons on **Ethereum, Avalanche, Stellar and Solana**, mostly solving real problems for Latin America.
 
----
+<br/>
 
-<a name="-versión-en-español"></a>
-## 🇪🇸 Versión en Español
+<img src="./assets/stack-duality.svg" alt="Stack: Web2 distributed core (Node.js, .NET, Laravel, PostgreSQL, AWS, Docker, hexagonal/DDD) and Web3 protocol layer (Solidity, Foundry, Soroban, Anchor, ERC-2771, zkTLS), and where they meet." width="100%" />
 
-### ⚡ Perfil y Propuesta de Valor
-Ingeniero de Sistemas y Tech Lead especializado en **arquitectura distribuida, protocolos Web3 y desarrollo full-stack de alto rendimiento**. Diseñado para competir y construir en entornos de alta exigencia (hackathons internacionales de Ethereum, Solana, Avalanche y Stellar), con experiencia directa en contratos inteligentes auditables, primitivas criptográficas físicas (NFC, zkTLS), agentes autónomos (MCP, Tether WDK) y sistemas concurrentes testeados para miles de usuarios.
+<br/>
 
----
-
-### 🏆 1. Hackathons & Protocolos Web3 de Alto Impacto
-
-Proyectos de competencia y soluciones de infraestructura descentralizada diseñadas para resolver problemas estructurales en economías emergentes y DeFi avanzada:
+## <img src="https://img.shields.io/badge/-WEB3-a855f7?style=flat-square" height="22" alt="" /> Protocols & hackathons
 
 <table>
-  <thead>
-    <tr>
-      <th width="32%">Proyecto & Ecosistema</th>
-      <th width="48%">Desafío Técnico & Solución de Arquitectura</th>
-      <th width="20%">Rol & Enlaces</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>
-        <b>RoutePay Protocol</b><br/>
-        <code>ETH Bolivia 2026</code><br/>
-        <code>Avalanche Fuji</code> · <code>Tangem NFC</code> · <code>ERC-2771</code>
-      </td>
-      <td>
-        <b>Problema:</b> Fletes internacionales con cobranza diferida (30-60 días) y riesgo de estafas en corredores comerciales (Arica - Bolivia).<br/>
-        <b>Arquitectura:</b> Escrow criptográfico con meta-transacciones 100% gasless (ERC-2771 / ERC-2612) y liquidación instantánea sub-segundo activada por hardware físico <b>Tangem NFC</b> (EIP-712).
-      </td>
-      <td>
-        <b>Frontend & Web3 Integration</b><br/>
-        <a href="https://frontend-mu-bay-zvc6ih2zcs.vercel.app">🌐 Demo dApp</a><br/>
-        <a href="https://github.com/RonaldGaymer2002/RoutePay">📂 Repositorio</a>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <b>Casandra (oraculo-radiohead)</b><br/>
-        <code>Aleph Hackathon 2026</code><br/>
-        <code>Tether WDK Track</code> · <code>Sepolia</code> · <code>MCP Server</code>
-      </td>
-      <td>
-        <b>Problema:</b> Agentes de IA en DeFi alucinando datos y ejecutando swaps sin evidencia verificable ni salvaguardas.<br/>
-        <b>Arquitectura:</b> Substrato determinista de evidencia (Evidence Pack) para LLMs con servidor <b>Model Context Protocol (MCP)</b> vía stdio, guardarraíles con <b>Tether WDK</b> y registro on-chain en Ethereum Sepolia.
-      </td>
-      <td>
-        <b>Smart Contracts & Web3 Core</b><br/>
-        <a href="https://sepolia.etherscan.io/address/0x27544Fe45b81C09fC91f99c0A7374970839eC4FF">📜 Sepolia Contract</a><br/>
-        <a href="https://github.com/RonaldGaymer2002/Casandra">📂 Repositorio</a>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <b>Yalita Protocol</b><br/>
-        <code>Avalanche Hackathon</code><br/>
-        <code>zkTLS Reclaim</code> · <code>Foundry</code> · <code>Hono + Neon</code>
-      </td>
-      <td>
-        <b>Problema:</b> +210M de latinoamericanos excluidos del crédito formal por falta de historial bancario tradicional.<br/>
-        <b>Arquitectura:</b> Identidad financiera on-chain y scoring descentralizado mediante pruebas criptográficas <b>zkTLS</b> (extrayendo comprobantes QR de Tigo Money / SIMPLE sin APIs oficiales) con 4 contratos en Foundry y microservicios Hono.
-      </td>
-      <td>
-        <b>Smart Contracts & Web3 Dev</b><br/>
-        <a href="https://yalita-one.vercel.app/">🌐 Demo dApp</a><br/>
-        <a href="https://github.com/RonaldGaymer2002/Yalita---Avalanche">📂 Repositorio</a>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <b>Vibe Broker (sucha-tech)</b><br/>
-        <code>Dev3pack Global</code> · <code>Solana Devnet</code><br/>
-        <code>Anchor (Rust)</code> · <code>LI.FI</code> · <code>ElevenLabs TTS</code>
-      </td>
-      <td>
-        <b>Problema:</b> Complejidad extrema de UX en DeFi (slippage, gas, firmas a ciegas) para usuarios no técnicos.<br/>
-        <b>Arquitectura:</b> Asistente transaccional por voz/texto con ruteo cross-chain (LI.FI), confirmación por políticas de riesgo, síntesis de voz con ElevenLabs, recibos on-chain con <b>Anchor/Rust</b> y suite E2E "Gabezo" en Docker.
-      </td>
-      <td>
-        <b>Co-Author & Contributor</b><br/>
-        <a href="https://github.com/jackson1939/sucha-tech">📂 Repositorio</a>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <b>CodoChain</b><br/>
-        <code>Ideatón Stellar Fin de Año</code><br/>
-        <code>Soroban (Rust)</code> · <code>RWA Factoring</code> · <code>Freighter</code>
-      </td>
-      <td>
-        <b>Problema:</b> Falta de liquidez inmediata en PyMEs latinoamericanas por facturas con cobro a 90 días.<br/>
-        <b>Arquitectura:</b> Marketplace de factoring tokenizado (RWA) sobre Stellar/Soroban con emisión de activos nativos, integración con Freighter Wallet y liquidación en USDC.
-      </td>
-      <td>
-        <b>Lead Architect & Dev</b><br/>
-        <a href="https://github.com/Vctor11180/Ideat-n---Arquisoft-Codochain">📂 Repositorio</a>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <b>Vortex Protocol</b><br/>
-        <code>EVM DeFi Engine</code><br/>
-        <code>Solidity</code> · <code>Foundry</code> · <code>Hooks ERC-1155</code>
-      </td>
-      <td>
-        <b>Problema:</b> Ineficiencia de capital y fees rígidos en AMMs ante alta volatilidad de mercado.<br/>
-        <b>Arquitectura:</b> AMM modular optimizado con hooks de incentivo (ERC-1155), gestión dinámica de tarifas y Position Manager de bajo gas con ensamblador <code>extsload</code>.
-      </td>
-      <td>
-        <b>Author & Architect</b><br/>
-        <a href="https://vortexprotocol.vercel.app">🌐 Demo dApp</a><br/>
-        <a href="https://github.com/Vctor11180/Vortex-Protocol">📂 Repositorio</a>
-      </td>
-    </tr>
-  </tbody>
+  <tr>
+    <td width="50%" valign="top">
+      <b><a href="https://github.com/RonaldGaymer2002/RoutePay">RoutePay Protocol</a></b><br/>
+      <sub><code>ETH Bolivia 2026</code> · Avalanche Fuji · ERC-2771 · Tangem NFC</sub>
+      <p>Gasless cross-border freight escrow with sub-second settlement triggered by a physical NFC tap.</p>
+      <sub>Frontend & Web3 Integration · <a href="https://frontend-mu-bay-zvc6ih2zcs.vercel.app">Demo ↗</a></sub>
+    </td>
+    <td width="50%" valign="top">
+      <b><a href="https://github.com/RonaldGaymer2002/Casandra">Casandra</a></b><br/>
+      <sub><code>Aleph Hackathon 2026 · Tether WDK</code> · MCP · Sepolia</sub>
+      <p>Deterministic evidence layer so DeFi AI agents can't act on hallucinated data — MCP server + WDK guardrails.</p>
+      <sub>Smart Contracts & Web3 Core · <a href="https://sepolia.etherscan.io/address/0x27544Fe45b81C09fC91f99c0A7374970839eC4FF">Contract ↗</a></sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <b><a href="https://github.com/RonaldGaymer2002/Yalita---Avalanche">Yalita Protocol</a></b><br/>
+      <sub><code>Avalanche Hackathon</code> · zkTLS (Reclaim) · Foundry · Hono</sub>
+      <p>On-chain credit identity for the 210M+ unbanked in LATAM, proven from local payment receipts via zkTLS.</p>
+      <sub>Smart Contracts & Web3 Dev · <a href="https://yalita-one.vercel.app/">Demo ↗</a></sub>
+    </td>
+    <td width="50%" valign="top">
+      <b><a href="https://github.com/jackson1939/sucha-tech">Vibe Broker</a></b><br/>
+      <sub><code>Dev3pack Global</code> · Solana · Anchor · LI.FI</sub>
+      <p>Voice-driven DeFi assistant with cross-chain routing, risk-policy confirmations and on-chain receipts.</p>
+      <sub>Co-Author & Contributor</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <b><a href="https://github.com/Vctor11180/Ideat-n---Arquisoft-Codochain">CodoChain</a></b><br/>
+      <sub><code>Stellar Ideathon</code> · Soroban (Rust) · RWA · USDC</sub>
+      <p>Tokenized invoice factoring so LATAM SMEs get liquidity today instead of in 90 days.</p>
+      <sub>Lead Architect & Dev</sub>
+    </td>
+    <td width="50%" valign="top">
+      <b><a href="https://github.com/Vctor11180/Vortex-Protocol">Vortex Protocol</a></b><br/>
+      <sub><code>EVM DeFi Engine</code> · Solidity · ERC-1155 hooks · extsload</sub>
+      <p>Modular AMM with incentive hooks, dynamic fees and an assembly-optimized Position Manager.</p>
+      <sub>Author & Architect · <a href="https://vortexprotocol.vercel.app">Demo ↗</a></sub>
+    </td>
+  </tr>
 </table>
 
----
-
-### 🚀 2. Aplicaciones Full-Stack & Concurrencia de Escala
-
-Sistemas distribuidos de producción, aplicaciones móviles y plataformas colaborativas:
+## <img src="https://img.shields.io/badge/-WEB2-00f2fe?style=flat-square" height="22" alt="" /> Products & distributed systems
 
 <table>
-  <thead>
-    <tr>
-      <th width="30%">Producto</th>
-      <th width="50%">Stack & Enfoque de Ingeniería</th>
-      <th width="20%">Métricas & Enlaces</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>
-        <b>Todo Ya</b><br/>
-        <code>React Native</code> · <code>Expo v56</code><br/>
-        <code>Neon DB (Postgres)</code> · <code>Gemini 2.5</code>
-      </td>
-      <td>
-        Plataforma universal de servicios y licitación B2B/B2C en minutos. Arquitectura multi-tenant con Drizzle ORM, autenticación PIN/WhatsApp, KYC biométrico con <b>Gemini Vision</b> y motor de búsqueda semántica con IA de 2 niveles.
-      </td>
-      <td>
-        <b>1.000+ Conexiones</b><br/>
-        Optimizado para LATAM<br/>
-        <a href="https://github.com/Todo-Yaa/TodoYa">📂 Repositorio</a>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <b>Kosmovia</b><br/>
-        <code>Stellar SDK</code> · <code>Next.js 14</code><br/>
-        <code>Soroban Contracts</code> · <code>Fintech</code>
-      </td>
-      <td>
-        Infraestructura de comunidades con billeteras no custodiales y pagos embebidos sobre la red Stellar, concebida para inclusión financiera y remesas de costo casi nulo en Bolivia.
-      </td>
-      <td>
-        <a href="https://kosmovia.vercel.app">🌐 Demo en Vivo</a><br/>
-        <a href="https://github.com/Vctor11180/kosmovia">📂 Repositorio</a>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <b>Chaski (P2P Logistics)</b><br/>
-        <code>Next.js</code> · <code>TypeScript</code> · <code>Escrow</code>
-      </td>
-      <td>
-        Marketplace peer-to-peer de encomiendas colaborativas con contratos de custodia, sistema de reputación descentralizada y seguimiento de estados tolerante a fallos.
-      </td>
-      <td>
-        <a href="https://chaski-app-smoky.vercel.app">🌐 Demo en Vivo</a><br/>
-        <a href="https://github.com/Vctor11180/P2P-Marketplace-y-encomiendas">📂 Repositorio</a>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <b>Aegis Engine</b><br/>
-        <code>C# .NET Core</code> · <code>Laravel</code> · <code>Docker</code>
-      </td>
-      <td>
-        Núcleo transaccional empresarial basado en Arquitectura Hexagonal y Domain-Driven Design (DDD), con aislamiento de dominios, esquemas SQL estrictos y pipelines de CI/CD.
-      </td>
-      <td>
-        <a href="https://github.com/Vctor11180/Aegis">📂 Repositorio</a>
-      </td>
-    </tr>
-  </tbody>
+  <tr>
+    <td width="50%" valign="top">
+      <b><a href="https://github.com/Todo-Yaa/TodoYa">Todo Ya</a></b><br/>
+      <sub>React Native · Expo · Neon Postgres · Drizzle · Gemini</sub>
+      <p>Multi-tenant services marketplace with WhatsApp/PIN auth, biometric KYC and two-tier AI search.</p>
+      <sub><b>1,000+ connections</b> · built for LATAM</sub>
+    </td>
+    <td width="50%" valign="top">
+      <b><a href="https://github.com/Vctor11180/kosmovia">Kosmovia</a></b> <sub>web2 ⇄ web3</sub><br/>
+      <sub>Next.js · Stellar SDK · Soroban</sub>
+      <p>Community infrastructure with non-custodial wallets and near-zero-cost payments for Bolivia.</p>
+      <sub><a href="https://kosmovia.vercel.app">Demo ↗</a></sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <b><a href="https://github.com/Vctor11180/P2P-Marketplace-y-encomiendas">Chaski</a></b> <sub>web2 ⇄ web3</sub><br/>
+      <sub>Next.js · TypeScript · Escrow</sub>
+      <p>P2P parcel-delivery marketplace with escrowed payments, reputation and fault-tolerant tracking.</p>
+      <sub><a href="https://chaski-app-smoky.vercel.app">Demo ↗</a></sub>
+    </td>
+    <td width="50%" valign="top">
+      <b><a href="https://github.com/Vctor11180/Aegis">Aegis Engine</a></b><br/>
+      <sub>C# .NET Core · Laravel · Docker · CI/CD</sub>
+      <p>Hexagonal, DDD-based transactional core with isolated domains and strict SQL schemas.</p>
+    </td>
+  </tr>
 </table>
 
----
+## Devlog · build in public
 
-### 📝 3. Engineering Devlog & "Build in Public"
+- **[ERC-2771 meta-transactions with Tangem NFC in 48 hours](https://github.com/RonaldGaymer2002/RoutePay)** — frictionless EIP-712 signing for truck drivers with zero crypto background.
+- **[Deterministic AI agents with Tether WDK and MCP](https://github.com/RonaldGaymer2002/Casandra)** — why an LLM should never swap directly.
+- **[zkTLS over local payment rails without official APIs](https://github.com/RonaldGaymer2002/Yalita---Avalanche)** — privacy-preserving proofs of solvency.
+- **[Modular DeFi with hooks and assembly-level gas tuning](https://github.com/Vctor11180/Vortex-Protocol)** — lessons from a next-gen AMM.
 
-> *"La excelencia en ingeniería no se demuestra prometiendo en silencio, sino documentando rigurosamente cada trade-off técnico, cada post-mortem y cada decisión de diseño."*
-
-Bitácora técnica basada en la filosofía minimalista de [Astro Micro](https://github.com/trevortylerlee/astro-micro) donde comparto aprendizajes reales del campo de batalla:
-
-- 🔬 **[Post-Mortem: Meta-transacciones ERC-2771 con Hardware Tangem NFC en 48 Horas](https://github.com/RonaldGaymer2002/RoutePay)**: Cómo implementar firmas EIP-712 sin fricción en choferes de transporte pesado sin conocimiento cripto previo.
-- 🔬 **[Agentes de IA Deterministas con Tether WDK y Servidores MCP](https://github.com/RonaldGaymer2002/Casandra)**: Por qué un LLM no debe operar swaps directamente y cómo diseñar un Evidence Pack con guardarraíles automáticos.
-- 🔬 **[Extracción zkTLS sobre Redes de Pago Locales sin APIs Oficiales](https://github.com/RonaldGaymer2002/Yalita---Avalanche)**: Pruebas criptográficas de privacidad para validar solvencia financiera en Avalanche C-Chain.
-- 🔬 **[DeFi Modular con Hooks y Optimización de Gas en Ensamblador (`extsload`)](https://github.com/Vctor11180/Vortex-Protocol)**: Lecciones construyendo creadores de mercado automatizados de nueva generación.
-
----
-
-### 🛠️ Matriz de Arquitectura por Capas
-
-```
-┌────────────────────────────────────────────────────────────────────────┐
-│ [01] PROTOCOL & WEB3  : Solidity (Foundry) · Soroban/Stellar (Rust)    │
-│                         Solana (Anchor) · Tether WDK · Tangem NFC      │
-│                         zkTLS (Reclaim) · Viem/Wagmi · ERC-2771 Gasless│
-├────────────────────────────────────────────────────────────────────────┤
-│ [02] BACKEND & DISTR. : Node.js · Express · C# .NET Core · PHP Laravel │
-│                         Model Context Protocol (MCP) · REST & gRPC     │
-├────────────────────────────────────────────────────────────────────────┤
-│ [03] DATA & CLOUD     : PostgreSQL (Neon) · Drizzle ORM · Prisma       │
-│                         Docker · AWS (Lambda, DynamoDB) · Vercel       │
-├────────────────────────────────────────────────────────────────────────┤
-│ [04] FRONTEND & APPS  : React Native (Expo v56) · Next.js 14/15        │
-│                         React 18/19 · TypeScript · Tailwind CSS · GSAP │
-└────────────────────────────────────────────────────────────────────────┘
-```
-
----
-
-<a name="-english-version"></a>
-## 🇬🇧 English Version
-
-### ⚡ Executive Summary & Value Proposition
-Systems Engineer and Full-Stack Tech Lead specializing in **distributed architectures, Web3 protocols, and resilient software delivery**. Proven track record in high-velocity competitive environments (Ethereum, Solana, Avalanche, and Stellar hackathons), building audited smart contracts, physical cryptographic primitives (NFC, zkTLS), autonomous agent frameworks (MCP, Tether WDK), and concurrent systems engineered for thousands of users.
-
----
-
-### 🏆 Featured Hackathons & Protocol Laurels
-
-- **[RoutePay Protocol](https://github.com/RonaldGaymer2002/RoutePay)** *(ETH Bolivia 2026)* — Cross-border logistics escrow on Avalanche Fuji combining ERC-2771 gasless transactions with physical **Tangem NFC** hardware taps. *(Role: Frontend & Web3 Integration)*.
-- **[Casandra](https://github.com/RonaldGaymer2002/Casandra)** *(Aleph Hackathon 2026 — Tether WDK Track)* — AI agent decision substrate utilizing an Anthropic **Model Context Protocol (MCP)** server, Tether WDK guardrails, and on-chain Sepolia anchoring. *(Role: Smart Contracts & Web3 Core)*.
-- **[Yalita Protocol](https://github.com/RonaldGaymer2002/Yalita---Avalanche)** *(Avalanche Hackathon)* — Financial identity and decentralized credit scoring protocol using **zkTLS** (Reclaim Protocol) to extract QR payment records without centralized APIs. *(Role: Smart Contracts & Web3 Dev)*.
-- **[Vibe Broker](https://github.com/jackson1939/sucha-tech)** *(Dev3pack Global Hackathon)* — Conversational voice-driven DeFi broker on Solana powered by **Anchor/Rust**, LI.FI cross-chain routing, ElevenLabs TTS, and Dockerized "Gabezo" E2E tests.
-- **[CodoChain](https://github.com/Vctor11180/Ideat-n---Arquisoft-Codochain)** *(Stellar Year-End Ideathon)* — Tokenized RWA invoice factoring platform built on Stellar/Soroban with Freighter Wallet and USDC settlements.
-- **[Vortex Protocol](https://github.com/Vctor11180/Vortex-Protocol)** — Modular DeFi AMM engine with ERC-1155 incentive hooks and assembly-level gas optimization via `extsload`.
-
----
-
-### 📡 GitHub Diagnostic Telemetry
+## Telemetry
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Vctor11180&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0b1021&title_color=00f2fe&icon_color=10b981&text_color=94a3b8" height="155" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Vctor11180&layout=compact&theme=tokyonight&hide_border=true&bg_color=0b1021&title_color=00f2fe&text_color=94a3b8" height="155" alt="Top Languages" />
+  <img src="https://github-readme-stats.vercel.app/api?username=Vctor11180&show_icons=true&hide_border=true&bg_color=05070d&title_color=00f2fe&icon_color=a855f7&text_color=a3adc2&ring_color=a855f7" height="160" alt="GitHub stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Vctor11180&layout=compact&hide_border=true&bg_color=05070d&title_color=a855f7&text_color=a3adc2" height="160" alt="Top languages" />
 </div>
+
+<br/>
+
+<div align="center">
+  <b>Building a protocol, a high-throughput system, or need a hackathon tech lead?</b><br/>
+  <sub><a href="https://vctor11180.vercel.app">Open the portfolio</a> · <a href="mailto:victor.murillo.siles@gmail.com">victor.murillo.siles@gmail.com</a></sub>
+</div>
+
+<br/>
 
 ---
 
-### 📬 Connect & Collaborate
+<a name="-en-español"></a>
+<details>
+<summary><b>🇪🇸 En español</b></summary>
+<br/>
 
-<p align="center">
-  Building a Web3 protocol, high-throughput distributed system, or looking for an experienced Hackathon Tech Lead?<br/>
-  <b>Let's build together:</b>
-</p>
+Ingeniero de Sistemas y Tech Lead Full Stack. Construyo donde la **confiabilidad Web2** se encuentra con la **confianza Web3**: backends hexagonales, pipelines serverless y capas de datos por un lado; contratos en Solidity, Soroban y Anchor por el otro. Experiencia en hackathons internacionales de **Ethereum, Avalanche, Stellar y Solana**, resolviendo problemas reales de Latinoamérica.
 
-<p align="center">
-  <a href="https://linkedin.com/in/victor-murillo-siles"><img src="https://img.shields.io/badge/LinkedIn-Víctor_Murillo-0A66C2?style=flat-square&logo=linkedin" alt="LinkedIn" /></a>
-  <a href="mailto:victor.murillo.siles@gmail.com"><img src="https://img.shields.io/badge/Email-Contact_Direct-D14836?style=flat-square&logo=gmail" alt="Email" /></a>
-  <a href="https://github.com/Vctor11180"><img src="https://img.shields.io/badge/GitHub-Vctor11180-181717?style=flat-square&logo=github" alt="GitHub" /></a>
-</p>
+**Destacados**
 
-<p align="center">
-  <sub>Architected with engineering discipline · Tested in production and hackathon battlegrounds</sub>
-</p>
+- **RoutePay** *(ETH Bolivia 2026)* — escrow de fletes sin gas, con liquidación instantánea mediante tap NFC Tangem.
+- **Casandra** *(Aleph Hackathon 2026)* — evidencia determinista para agentes de IA en DeFi con MCP y Tether WDK.
+- **Yalita** *(Avalanche)* — identidad crediticia on-chain con pruebas zkTLS sobre pagos locales.
+- **CodoChain** *(Ideatón Stellar)* — factoring tokenizado (RWA) para PyMEs sobre Soroban.
+- **Todo Ya** — marketplace de servicios con KYC biométrico e IA, 1.000+ conexiones.
+
+¿Construyes un protocolo o necesitas un tech lead para tu hackathon? → [Portafolio](https://vctor11180.vercel.app) · [Email](mailto:victor.murillo.siles@gmail.com)
+
+</details>

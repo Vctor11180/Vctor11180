@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 260" width="100%" fill="none">
+  <defs>
+    <linearGradient id="bridge" x1="0" x2="1">
+      <stop offset="0" stop-color="#00f2fe"/>
+      <stop offset="1" stop-color="#a855f7"/>
+    </linearGradient>
+    <radialGradient id="glow-c" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(80 0) scale(420 260)">
+      <stop offset="0" stop-color="#00f2fe" stop-opacity="0.10"/>
+      <stop offset="1" stop-color="#00f2fe" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow-v" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(860 40) scale(380 260)">
+      <stop offset="0" stop-color="#a855f7" stop-opacity="0.13"/>
+      <stop offset="1" stop-color="#a855f7" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="lens" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#7c8cff" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#7c8cff" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="clip-l"><circle cx="690" cy="130" r="72"/></clipPath>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" stroke="#ffffff" stroke-opacity="0.035"/>
+    </pattern>
+  </defs>
+
+  <style>
+    .mono { font-family: 'JetBrains Mono', 'Cascadia Code', 'SFMono-Regular', Consolas, monospace; }
+    .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; }
+    .spin { animation: spin 30s linear infinite; transform-origin: 712px 130px; }
+    .spin-rev { animation: spin 22s linear infinite reverse; transform-origin: 712px 130px; }
+    .pulse { animation: pulse 2.4s ease-in-out infinite; }
+    @keyframes spin { to { transform: rotate(360deg); } }
+    @keyframes pulse { 0%, 100% { opacity: 0.35; } 50% { opacity: 1; } }
+    @media (prefers-reduced-motion: reduce) { .spin, .spin-rev, .pulse { animation: none; } }
+  </style>
+
+  <rect width="880" height="260" rx="16" fill="#05070d"/>
+  <rect width="880" height="260" rx="16" fill="url(#grid)"/>
+  <rect width="880" height="260" rx="16" fill="url(#glow-c)"/>
+  <rect width="880" height="260" rx="16" fill="url(#glow-v)"/>
+  <rect x="0.5" y="0.5" width="879" height="259" rx="15.5" stroke="#ffffff" stroke-opacity="0.08"/>
+
+  <!-- status -->
+  <g transform="translate(44 40)">
+    <rect width="248" height="24" rx="12" fill="#10b981" fill-opacity="0.06" stroke="#10b981" stroke-opacity="0.35"/>
+    <circle class="pulse" cx="15" cy="12" r="3.5" fill="#10b981"/>
+    <text x="27" y="16" fill="#10b981" font-size="10.5" class="mono">Available for global hackathons</text>
+  </g>
+
+  <!-- identity -->
+  <text x="44" y="116" fill="#e6ebf5" font-size="34" font-weight="600" letter-spacing="-0.5" class="sans">Víctor Hugo Murillo Siles</text>
+  <text x="44" y="146" fill="#a3adc2" font-size="13" class="mono"><tspan fill="#6b7489">&gt; </tspan>Systems Engineer · Full Stack Tech Lead · Web3 Architect</text>
+
+  <text x="44" y="194" font-size="21" font-weight="300" class="sans" fill="#e6ebf5"><tspan fill="#00f2fe">Web2</tspan> discipline. <tspan fill="#c084fc">Web3</tspan> trust.</text>
+  <rect x="44" y="214" width="120" height="2" rx="1" fill="url(#bridge)"/>
+  <text x="178" y="219" fill="#6b7489" font-size="10" class="mono">BOLIVIA · LATAM · REMOTE</text>
+
+  <!-- bridge visual -->
+  <g class="spin">
+    <circle cx="712" cy="130" r="112" stroke="#ffffff" stroke-opacity="0.08" stroke-dasharray="2 8"/>
+    <circle cx="712" cy="18" r="2.5" fill="#00f2fe"/>
+    <circle cx="712" cy="242" r="2.5" fill="#a855f7"/>
+  </g>
+  <g class="spin-rev">
+    <circle cx="712" cy="130" r="94" stroke="url(#bridge)" stroke-opacity="0.3" stroke-dasharray="40 160"/>
+  </g>
+  <circle cx="734" cy="130" r="72" fill="url(#lens)" clip-path="url(#clip-l)"/>
+  <circle cx="690" cy="130" r="72" stroke="#00f2fe" stroke-opacity="0.75"/>
+  <circle cx="734" cy="130" r="72" stroke="#a855f7" stroke-opacity="0.8"/>
+  <text x="656" y="134" fill="#00f2fe" font-size="11" letter-spacing="2.5" text-anchor="middle" class="mono">WEB2</text>
+  <text x="768" y="134" fill="#c084fc" font-size="11" letter-spacing="2.5" text-anchor="middle" class="mono">WEB3</text>
+  <circle cx="712" cy="130" r="3.5" fill="url(#bridge)"/>
+  <circle class="pulse" cx="712" cy="130" r="9" stroke="url(#bridge)"/>
+</svg>
