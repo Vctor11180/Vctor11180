@@ -109,10 +109,7 @@ I build where **Web2 reliability** meets **Web3 trust** — hexagonal backends, 
 
 ## Telemetry
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Vctor11180&show_icons=true&hide_border=true&bg_color=05070d&title_color=00f2fe&icon_color=a855f7&text_color=a3adc2&ring_color=a855f7" height="160" alt="GitHub stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Vctor11180&layout=compact&hide_border=true&bg_color=05070d&title_color=a855f7&text_color=a3adc2" height="160" alt="Top languages" />
-</div>
+<img src="./assets/telemetry.svg" alt="System Architecture & Protocol Telemetry: Node Health, Multi-chain Cores, Hexagonal Distributed Backend, Sprint Velocity, and zkTLS/NFC Security" width="100%" />
 
 <br/>
 
